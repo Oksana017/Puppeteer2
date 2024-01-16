@@ -1,6 +1,6 @@
 const puppeteer = require("puppeteer");
-//const chai = require("chai");
-//const expect = chai.expect;
+const chai = require("chai");
+const expect = chai.expect;
 const { Given, When, Then, Before, After, setDefaultTimeout, } = require("cucumber");
 const { clickElement, getText } = require("../../lib/commands.js");
 
